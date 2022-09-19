@@ -23,7 +23,7 @@ app.get('/', function (req, res) {
 app.get('/api/hello', function (req, res) {
   res.json({ greeting: 'hello API' });
 });
-
+// me
  app.get('/api/whoami', function (req, res){
    
     res.json({'ipaddress': req.ip, 
